@@ -241,16 +241,29 @@ i.menu-mobile {
 }
 
 .carousel-control-prev {
-    margin-left: -8rem;
+    margin-left: -7rem;
 }
 
 .carousel-control-next {
-    margin-right: -8rem;
+    margin-right: -7rem;
 }
 
 .carousel-indicators {
     margin-bottom: -35px;
 }
+
+/* Carousel control next */
+#carouselPortfolio .carousel-control-next {
+    margin-left: 0px;
+    width: 109px !important;
+}
+
+/* Carousel control prev */
+#carouselPortfolio .carousel-control-prev {
+    width: 126px;
+    min-height: 361px;
+}
+
 
 
 /*Animação*/
