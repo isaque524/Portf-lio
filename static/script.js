@@ -45,3 +45,21 @@ animeScroll();
 window.addEventListener("scroll", () => {
     animeScroll();
 })
+
+/*ativação dos botoes d envio*/
+
+const btnEnviar = document.querySelector('#btn-enviar')
+const btnEnviando = document.querySelector('#btn-enviando')
+
+btnEnviar.addEventListener("click", () => {
+    btnEnviando.style.display = "block";
+    btnEnviar.style.display = 'none'
+
+})
+
+//time do alerta 
+
+
+setTimeout(() => {
+    document.querySelector('#alerta').style.display = 'none';
+}, 5000)
